@@ -284,7 +284,7 @@ module.exports = function(app, db) {
 		});
 
 		let mailOptions = {
-			from: '"Dynatrace Business Value Assessment" <alistair.emslie@dynatrace.com>',
+			from: '"Dynatrace Business Value Assessment" <jeffery.yarbrough@dynatrace.com>',
 			to: email,
 			subject: subject,
 			text: text,
