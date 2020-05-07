@@ -1,11 +1,11 @@
-try {
-  require('@dynatrace/oneagent')({
-      environmentid: process.env.DT_TENANT,
-      apitoken: process.env.DT_API_TOKEN,
-  });
-} catch(err) {
-  console.log(err.toString());
-}
+//try {
+//  require('@dynatrace/oneagent')({
+//      environmentid: process.env.DT_TENANT,
+//      apitoken: process.env.DT_API_TOKEN,
+//  });
+//} catch(err) {
+//  console.log(err.toString());
+//}
 
 var Promise = require('es6-promise').Promise;
 
